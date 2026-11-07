@@ -39,6 +39,7 @@
       "Bash(npm --version)",
       "Bash(npm ci *)",
       "Bash(npm create astro*)",
+      "Bash(npm create vite*)",
       "Bash(npm install *)",
       "Bash(npm ls *)",
       "Bash(npm outdated *)",
@@ -51,6 +52,7 @@
       "Bash(npx prettier *)",
       "Bash(npx slidev *)",
       "Bash(npx tsc *)",
+      "Bash(npx vite *)",
       "Bash(npx vitest *)",
       "PowerShell(curl -s https://*.github.io/*)",
       "PowerShell(curl -sI https://*.github.io/*)",
@@ -87,6 +89,7 @@
       "PowerShell(npm --version)",
       "PowerShell(npm ci *)",
       "PowerShell(npm create astro*)",
+      "PowerShell(npm create vite*)",
       "PowerShell(npm install *)",
       "PowerShell(npm ls *)",
       "PowerShell(npm outdated *)",
@@ -99,6 +102,7 @@
       "PowerShell(npx prettier *)",
       "PowerShell(npx slidev *)",
       "PowerShell(npx tsc *)",
+      "PowerShell(npx vite *)",
       "PowerShell(npx vitest *)"
     ],
     "deny": [
