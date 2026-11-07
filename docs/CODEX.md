@@ -13,7 +13,7 @@ De Claude-skills in `.claude/` blijven ongewijzigd. Codex gebruikt zelfstandige 
 7. Voer `$create-issues Kijk in PROJECT_OVERVIEW.md. Maak issues aan om de eerste versie van deze app te realiseren.` uit.
 8. Gebruik de echte nummers. Begin met de eerste twee, bijvoorbeeld `$work-issues 1 2`, en start daarna een nieuwe reeks met de volgende nummers.
 
-`AGENTS.md` is al meegeleverd en bevat de vaste afspraken voor Codex. De vraag in stap 6 vervangt de `/init` uit de Claude-route. Zolang er nog geen applicatie is, kunnen de testcommando's nog niet worden geverifieerd; laat ze na het eerste basisissue aanvullen.
+`AGENTS.md` is al meegeleverd en bevat de vaste afspraken voor Codex. De vraag in stap 6 vult die aan met de bouwstenen van jouw project. Zolang er nog geen applicatie is, kunnen de testcommando's nog niet worden geverifieerd; laat ze na het eerste basisissue aanvullen.
 
 Verschijnen de skills niet, herstart Codex in de projectmap. Ze staan onder `.agents/skills/` (meervoud). `$setup` en `$work-issues` worden alleen expliciet opgeroepen, net zoals de oorspronkelijke Claude-versies. In Codex gebruik je `$` voor een skill; `/setup` is de Claude-notatie. Je kunt ook expliciet vragen om het betreffende `SKILL.md` te lezen en te volgen.
 

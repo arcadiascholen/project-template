@@ -53,8 +53,10 @@ Je AI vraagt wat je wil maken en wat een eerste versie moet kunnen. Samen kiezen
 /bootstrap-github
 ```
 
+Vraag daarna aan je AI om bij te houden hoe je project in elkaar zit:
+
 ```text
-/init
+Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
 ```
 
 ### 5. Maak een lijst taken
@@ -95,7 +97,7 @@ Wil je iets anders of verbeteren? Maak er nieuwe issues van met `/create-issues`
 | `/cleanup` | Ruimt branches op en sluit afgewerkte issues. | Meestal niet zelf: `/work-issues` roept deze op. |
 | `/discuss` | Laat je overleggen met je AI, zonder dat die iets aanpast. | Als je eerst wil nadenken. |
 
-`/init` zit standaard in Claude Code. Het maakt een `CLAUDE.md` waarin je AI bijhoudt hoe je project in elkaar zit.
+In `CLAUDE.md` houdt je AI bij hoe je project in elkaar zit. Dat bestand maak je met de vraag uit stap 4.
 
 ## Wat zit er in deze map?
 

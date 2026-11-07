@@ -99,7 +99,11 @@ Zeg het vooraf als een installatie lang duurt. Vindt het systeem een tool na ins
 
 Controleer daarna GitHub:
 
-1. `gh auth status`. Is de gebruiker niet aangemeld, vraag dan om `gh auth login` zelf uit te voeren door in de prompt `! gh auth login` te typen, en leg uit dat GitHub, HTTPS en aanmelden via de browser de juiste keuzes zijn.
+1. `gh auth status`. Is de gebruiker niet aangemeld, vraag dan om `gh auth login` zelf uit te voeren, en leg uit dat GitHub, HTTPS en aanmelden via de browser de juiste keuzes zijn. Leg uit waar de gebruiker dat typt:
+   - **In de desktop-app:** open een terminal in de zijbalk en typ daar `gh auth login`.
+   - **In Claude Code in de terminal:** typ in de prompt `! gh auth login`.
+
+   Laat de gebruiker zeggen wanneer het gelukt is, en kijk het dan na met `gh auth status`.
 2. Laat git het account van `gh` gebruiken: `gh auth setup-git`.
 3. Stel de naam en het mailadres in voor deze repo, met het anonieme GitHub-adres, zodat het privé-mailadres van de gebruiker niet in de publieke geschiedenis komt. Vraag eerst `gh api user --jq .login` en daarna `gh api user --jq .id` op, en vul de waarden letterlijk in:
    ```
@@ -170,8 +174,8 @@ Vertel in één of twee zinnen wat er nu vastligt. Noem daarna de volgende stapp
 ```
 /bootstrap-github
 ```
-```
-/init
+```text
+Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
 ```
 ```
 /create-issues Kijk in PROJECT_OVERVIEW.md. Maak issues aan om de eerste versie van deze app te realiseren.
