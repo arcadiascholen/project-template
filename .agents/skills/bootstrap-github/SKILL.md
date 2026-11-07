@@ -72,5 +72,8 @@ Is er niets gewijzigd, sla deze stap dan over.
 
 Vertel in twee of drie zinnen wat er nu klaarstaat en waarom: elk issue krijgt zo een vaste structuur, zodat je AI precies weet wat het resultaat moet zijn. Noem daarna de volgende stap:
 
-- Laat Codex `AGENTS.md` bijwerken op basis van `PROJECT_OVERVIEW.md`, met behoud van de bestaande werkafspraken. Dit vervangt de `/init`-stap uit de Claude-route.
+- Staan de bouwstenen uit `PROJECT_OVERVIEW.md` nog niet in `AGENTS.md`, stel dan deze vraag voor:
+  ```text
+  Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.
+  ```
 - Daarna: `$create-issues`

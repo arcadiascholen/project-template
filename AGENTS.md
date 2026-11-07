@@ -12,7 +12,7 @@ Dit is een template waarmee collega's zonder programmeerervaring apps maken. Pra
 ## Werkwijze
 
 - `$setup` bespreekt het project en schrijft `PROJECT_OVERVIEW.md`, zonder applicatiecode.
-- `$bootstrap-github` zet GitHub klaar. Werk daarna dit bestand bij met de gekozen bouwstenen en concrete build- en testcommando's, met behoud van deze afspraken. Een aparte `/init` is in de Codex-route niet nodig.
+- `$bootstrap-github` zet GitHub klaar. Werk daarna dit bestand bij met de gekozen bouwstenen en concrete build- en testcommando's, met behoud van deze afspraken.
 - `$create-issues` maakt concrete GitHub-taken. Applicatiewijzigingen verlopen normaal via een issue en `$work-issue` of `$work-issues`.
 - `$work-issues` gebruikt voor elk issue een nieuwe subagent met een eigen context, zonder de conversatiegeschiedenis te kopiëren. Geef de werkmap, skillpaden, branch en alleen noodzakelijke eerdere resultaten mee. Werk na elkaar in dezelfde checkout. De hoofdagent coördineert en ontvangt korte resultaten. Dit is expliciete toestemming voor de in die skill beschreven delegatie.
 - Maak nieuwe branches met `codex/` als voorvoegsel. Commit alleen bestanden die bij het werk horen. Behoud bestaande wijzigingen van de gebruiker.

@@ -69,5 +69,8 @@ Is er niets gewijzigd, sla deze stap dan over.
 
 Vertel in twee of drie zinnen wat er nu klaarstaat en waarom: elk issue krijgt zo een vaste structuur, zodat je AI precies weet wat het resultaat moet zijn. Noem daarna de volgende stap:
 
-- Bestaat er nog geen `CLAUDE.md`: `/init`
+- Staan de bouwstenen uit `PROJECT_OVERVIEW.md` nog niet in `CLAUDE.md`, of bestaat dat bestand nog niet, stel dan deze vraag voor:
+  ```text
+  Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
+  ```
 - Daarna: `/create-issues`

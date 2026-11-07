@@ -27,7 +27,7 @@ Zonder uitbesteding wordt alles één lang gesprek, en dan zit de gebruiker snel
 2. Bepaal de hoofdbranch: `gh repo view --json defaultBranchRef --jq .defaultBranchRef.name`.
 3. Bekijk `git status --porcelain`:
    - **Alles is opgeslagen:** ga verder.
-   - **Alleen `CLAUDE.md` en/of `PROJECT_OVERVIEW.md` zijn nieuw of gewijzigd:** dat is normaal na `/setup` en `/init`. Sta je op de hoofdbranch, voer dan na elkaar `git add` met die bestanden, `git commit -m "Projectdocumenten bijwerken"` en `git push` uit.
+   - **Alleen `CLAUDE.md` en/of `PROJECT_OVERVIEW.md` zijn nieuw of gewijzigd:** dat is normaal na `/setup` en het bijwerken van `CLAUDE.md`. Sta je op de hoofdbranch, voer dan na elkaar `git add` met die bestanden, `git commit -m "Projectdocumenten bijwerken"` en `git push` uit.
    - **Er staat iets anders open:** stop. Toon de bestanden en vraag wat er moet gebeuren.
 
 ## Stap 2: bepalen welke issues
