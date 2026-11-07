@@ -91,6 +91,7 @@ Daarna kan je het resultaat bekijken, en nieuwe issues maken voor wat beter kan.
 |---|---|
 | `.claude/skills/` | De skills. |
 | `.claude/settings.json` | Wat je AI zonder te vragen mag doen. |
+| `.claude/rules/` | Vaste regels voor je AI, bijvoorbeeld om commando's eenvoudig te houden. |
 | `design-system/` | De vormgeving: kleuren, lettertypes en componenten. |
 | `LICENSE` | De licentie van dit project. |
 
@@ -102,7 +103,7 @@ Terwijl `/work-issues` loopt, wil je niet dat alles stilvalt omdat je AI op een 
 - **Mag nooit:** de geschiedenis op GitHub overschrijven (`git push --force`), niet-opgeslagen werk weggooien (`git reset --hard`, `git clean`) of je repo verwijderen.
 - **Al de rest:** daarvoor vraagt je AI eerst toestemming.
 
-Claude Code vraagt de eerste keer of je deze map vertrouwt. Antwoord **ja**, anders gelden deze instellingen niet. Dat zijn ook de enige instellingen die je moet kennen: de lijst pas je aan door het je AI te vragen.
+Claude Code vraagt de eerste keer of je deze map vertrouwt, met een waarschuwing over deze lijst. De standaardkeuze is daar **No, exit**: kies met de pijltjestoets **Yes, I trust this folder**, anders gelden deze instellingen niet. Dat zijn ook de enige instellingen die je moet kennen: de lijst pas je aan door het je AI te vragen.
 
 ## Goed om te weten
 
