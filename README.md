@@ -12,10 +12,12 @@ Op het einde heb je je eigen project op GitHub, een ontwerpdocument en een eerst
 ## Wat heb je nodig?
 
 - een gratis GitHub-account
-- een betalend abonnement op Claude en Claude Code
+- toegang tot Claude Code of Codex
 - een idee voor een app of website
 
 ## Zo begin je
+
+Onderstaande stappen gebruiken **Claude Code**. Gebruik je **Codex**, volg dan de [aparte Codex-stappen](docs/CODEX.md). Die gebruiken zelfstandige skills in `.agents/skills/`, `$setup` in plaats van `/setup` en een meegeleverde `AGENTS.md`. De Claude-skills en -instellingen blijven apart behouden.
 
 ### 1. Maak je eigen project
 
@@ -92,10 +94,16 @@ Daarna kan je het resultaat bekijken, en nieuwe issues maken voor wat beter kan.
 | `.claude/skills/` | De skills. |
 | `.claude/settings.json` | Wat je AI zonder te vragen mag doen. |
 | `.claude/rules/` | Vaste regels voor je AI, bijvoorbeeld om commando's eenvoudig te houden. |
+| `.agents/skills/` | Zelfstandige Codex-versies van de skills, met eigen sjablonen. |
+| `AGENTS.md` | Vaste projectinstructies voor Codex. |
+| `.codex/` | Codex-instellingen voor sandbox, automatische beoordeling en commandoregels. |
+| `docs/CODEX.md` | Beginnen met Codex, toestemmingen en de eerste praktijktest. |
 | `design-system/` | De vormgeving: kleuren, lettertypes en componenten. |
 | `LICENSE` | De licentie van dit project. |
 
 ## Wat mag je AI zonder te vragen?
+
+Dit gedeelte gaat over **Claude Code**. Voor Codex gelden de [toestemmingen in de Codex-handleiding](docs/CODEX.md#hoe-de-toestemmingen-werken).
 
 Terwijl `/work-issues` loopt, wil je niet dat alles stilvalt omdat je AI op een toestemming wacht. Daarom bevat `.claude/settings.json` een beperkte lijst:
 
