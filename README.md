@@ -90,8 +90,19 @@ Daarna kan je het resultaat bekijken, en nieuwe issues maken voor wat beter kan.
 | Map of bestand | Inhoud |
 |---|---|
 | `.claude/skills/` | De skills. |
+| `.claude/settings.json` | Wat je AI zonder te vragen mag doen. |
 | `design-system/` | De vormgeving: kleuren, lettertypes en componenten. |
 | `LICENSE` | De licentie van dit project. |
+
+## Wat mag je AI zonder te vragen?
+
+Terwijl `/work-issues` loopt, wil je niet dat alles stilvalt omdat je AI op een toestemming wacht. Daarom bevat `.claude/settings.json` een beperkte lijst:
+
+- **Mag zonder vragen:** bestanden in dit project aanpassen, de gewone Git- en GitHub-commando's, en de commando's om je app te installeren, te bouwen en te testen.
+- **Mag nooit:** de geschiedenis op GitHub overschrijven (`git push --force`), niet-opgeslagen werk weggooien (`git reset --hard`, `git clean`) of je repo verwijderen.
+- **Al de rest:** daarvoor vraagt je AI eerst toestemming.
+
+Claude Code vraagt de eerste keer of je deze map vertrouwt. Antwoord **ja**, anders gelden deze instellingen niet. Dat zijn ook de enige instellingen die je moet kennen: de lijst pas je aan door het je AI te vragen.
 
 ## Goed om te weten
 
