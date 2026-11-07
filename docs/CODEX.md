@@ -11,7 +11,7 @@ De Claude-skills in `.claude/` blijven ongewijzigd. Codex gebruikt zelfstandige 
 5. Voer `$bootstrap-github` uit.
 6. Vraag: `Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.`
 7. Voer `$create-issues Kijk in PROJECT_OVERVIEW.md. Maak issues aan om de eerste versie van deze app te realiseren.` uit.
-8. Gebruik de echte nummers, bijvoorbeeld `$work-issues 1 2 3`.
+8. Gebruik de echte nummers. Begin met de eerste twee, bijvoorbeeld `$work-issues 1 2`, en start daarna een nieuwe reeks met de volgende nummers.
 
 `AGENTS.md` is al meegeleverd en bevat de vaste afspraken voor Codex. De vraag in stap 6 vervangt de `/init` uit de Claude-route. Zolang er nog geen applicatie is, kunnen de testcommando's nog niet worden geverifieerd; laat ze na het eerste basisissue aanvullen.
 

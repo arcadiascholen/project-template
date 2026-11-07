@@ -65,13 +65,23 @@ Je AI vraagt wat je wil maken en wat een eerste versie moet kunnen. Samen kiezen
 
 ### 6. Laat je AI eraan werken
 
-Gebruik de nummers die je AI bij de vorige stap teruggaf:
+Begin met de eerste twee nummers die je AI bij de vorige stap teruggaf. Zo zie je snel een resultaat:
 
 ```text
-/work-issues 1 2 3
+/work-issues 1 2
 ```
 
-Daarna kan je het resultaat bekijken, en nieuwe issues maken voor wat beter kan.
+Bij een website zet je AI met die twee issues de basis en de publicatie op. Daarna gaat elke wijziging die in je app komt, vanzelf online.
+
+### 7. Werk verder
+
+Bekijk het resultaat, en start dan een nieuwe reeks met de volgende nummers:
+
+```text
+/work-issues 3 4 5
+```
+
+Wil je iets anders of verbeteren? Maak er nieuwe issues van met `/create-issues`.
 
 ## De skills
 
