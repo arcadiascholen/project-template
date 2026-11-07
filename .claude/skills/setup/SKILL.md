@@ -44,7 +44,7 @@ Vraag eerst of de app iets moet onthouden. Zo ja: wat, en moet dat op een andere
 
 Raad de eenvoudigste manier aan die volstaat.
 
-**Leerlinggegevens:** vraag altijd of er namen, punten of andere gegevens over leerlingen in voorkomen. Zo ja, zeg dan duidelijk dat die gegevens niet in een publieke repo of op een publieke site horen, ook niet als voorbeeld. Kies een manier waarbij ze op de eigen computer blijven, tenzij de school hiervoor een afgesproken oplossing heeft. Vermeld dit in het overview.
+**Persoonsgegevens:** vraag hier niet naar. Vermeldt de gebruiker zelf namen, punten of andere gegevens over personen, zeg dan duidelijk dat die gegevens niet in een publieke repo of op een publieke site horen, ook niet als voorbeeld. Kies dan een manier waarbij ze op de eigen computer blijven, tenzij de school of organisatie hiervoor een afgesproken oplossing heeft. Vermeld dit in het overview.
 
 ## Stap 4: platform en frameworks
 
@@ -52,15 +52,17 @@ Bepaal eerst waar de app moet werken, en stel dan een framework voor. Een framew
 
 | Situatie | Aanbeveling |
 |---|---|
-| Website die je gemakkelijk wil delen, zoals uitleg of een interactieve oefening | **Astro**: statische website, gratis te publiceren op GitHub Pages |
+| Website met uitleg of meerdere pagina's, die je gemakkelijk wil delen | **Astro**: statische website, gratis te publiceren op GitHub Pages |
+| Eén interactieve app op één pagina, met veel knoppen en instellingen, zoals een simulatie of een rekentool | **React met Vite**: ook statisch en gratis op GitHub Pages, en past ook als er later een backend bij komt |
 | Presentatie, eventueel met interactieve slides | **Slidev** |
 | Mogelijk ook een Windows-, Mac- of Android-app, of het is nog onduidelijk | **Flutter**: dezelfde code werkt op meerdere platformen, dus de keuze blijft flexibel |
 | Persoonlijke tool, werkt zonder internet, bewaart gegevens lokaal | **Flutter** als lokale app |
 
+Twijfel je tussen Astro en React? Gaat het vooral om tekst en pagina's, kies dan Astro. Gaat het vooral om één scherm dat reageert op wat de gebruiker doet, kies dan React.
+
 Andere opties stel je alleen voor als ze echt beter passen:
 
 - **TeachBooks:** een wetenschappelijke cursus als website.
-- **React:** een website die ook een backend nodig heeft.
 - **.NET:** een Windows-app die sterk moet samenwerken met Windows of andere programma's.
 
 Vraag ook hoe de app later bij de gebruikers moet raken. Een website kan op GitHub Pages. Een lokale app kan als release op GitHub, maar Windows waarschuwt bij het starten van onbekende software. Dat is overkomelijk als je het even voordoet, maar minder de moeite voor een app die je maar in één les gebruikt.
@@ -71,7 +73,7 @@ Wijzig je voorstel gerust als iets anders beter past, en leg kort uit waarom.
 
 ## Stap 5: testen
 
-Leg in twee zinnen uit dat testen kleine controles zijn die ervoor zorgen dat alles blijft werken zoals bedoeld, ook na latere aanpassingen, en dat de gebruiker ze niet zelf moet schrijven. Vraag daarna wat er zeker altijd moet blijven werken, en noteer dat in de woorden van de gebruiker.
+Vraag hier niets. De testen komen later bij elk issue. Leid zelf uit de eerste versie af wat zeker altijd moet blijven werken, en zet dat in de sectie "Testen" van het overview. Noemde de gebruiker zelf een eis, bijvoorbeeld "2/4 telt niet als juist als de uitkomst 1/2 is", neem die dan over in de woorden van de gebruiker.
 
 ## Stap 6: vormgeving
 
