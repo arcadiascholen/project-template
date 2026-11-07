@@ -64,6 +64,8 @@ Andere opties stel je alleen voor als ze echt beter passen:
 
 Vraag ook hoe de app later bij de gebruikers moet raken. Een website kan op GitHub Pages. Een lokale app kan als release op GitHub, maar Windows waarschuwt bij het starten van onbekende software. Dat is overkomelijk als je het even voordoet, maar minder de moeite voor een app die je maar in één les gebruikt.
 
+Kies je een website op GitHub Pages, zeg dan in één zin dat elke wijziging die in de hoofdbranch komt, daarna vanzelf online gaat. Je moet er dus niet aan denken om te publiceren, en je site is altijd gelijk aan je echte app.
+
 Wijzig je voorstel gerust als iets anders beter past, en leg kort uit waarom.
 
 ## Stap 5: testen
@@ -141,7 +143,7 @@ Gebruikt het design system in `design-system/`.
 - <wat er altijd moet blijven werken>
 
 ## Publicatie
-<hoe de app bij de gebruikers raakt>
+<hoe de app bij de gebruikers raakt. Bij een website op GitHub Pages: elke merge naar de hoofdbranch publiceert de site automatisch via een workflow.>
 ```
 
 Toon de gebruiker een korte samenvatting en vraag of dit klopt. Pas aan wat nog niet klopt.

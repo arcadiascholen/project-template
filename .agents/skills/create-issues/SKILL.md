@@ -32,9 +32,10 @@ Vraag alleen door als je zonder antwoord echt geen goed issue kan schrijven, en 
 Volg wat er in `PROJECT_OVERVIEW.md` staat, en niet meer dan dat. Wat daar bij "nog niet" staat, maak je niet.
 
 1. **Het eerste issue zet de basis:** het project aanmaken met de gekozen frameworks, de testhulpmiddelen installeren, één eerste test die slaagt, en automatische controles (CI) via `.github/workflows/`, die de tests uitvoeren bij elke pull request. Vermeld ook dat het design system uit `design-system/` gebruikt wordt, tenzij het overview iets anders zegt.
-2. **De volgende issues bouwen de functies.** Zorg ervoor dat de eerste drie issues samen al iets opleveren dat de gebruiker kan openen en bekijken.
+2. **Bij een website op GitHub Pages is publiceren het tweede issue.** Dat issue vraagt een workflow in `.github/workflows/` die de site bouwt en publiceert bij elke push naar de hoofdbranch, en geen eenmalige publicatie. Het vraagt ook om GitHub Pages aan te zetten met GitHub Actions als bron, en om de link in de README te zetten. Hou dit apart van de basis: lukt publiceren niet, bijvoorbeeld bij een private repo op een gratis account, dan is alleen dit issue geblokkeerd.
+3. **De volgende issues bouwen de functies.** Zorg ervoor dat de eerste twee issues samen al iets opleveren dat de gebruiker kan openen en bekijken. Bij een website is dat een eenvoudige pagina die online staat. Bij een lokale app is het tweede issue de eerste functie.
 
-Mik op 3 tot 8 issues. Moet er later gepubliceerd worden, maak dat dan een apart issue, helemaal op het einde.
+Mik op 3 tot 8 issues. Moet een lokale app later gepubliceerd worden, maak dat dan een apart issue, helemaal op het einde.
 
 ## Stap 3: schrijf de issues
 
@@ -62,8 +63,10 @@ Schrijf nooit een script dat meerdere issues tegelijk maakt.
 
 ## Stap 4: afronden
 
-Toon een korte lijst met nummer en titel, en vermeld de keuzes die je zelf hebt gemaakt. Noem daarna de volgende stap met de echte nummers, bijvoorbeeld:
+Toon een korte lijst met nummer en titel, en vermeld de keuzes die je zelf hebt gemaakt. Noem daarna de volgende stap met de echte nummers. Is dit de eerste versie van een nieuw project, begin dan met alleen de eerste twee issues, zodat de gebruiker snel een resultaat ziet:
 
 ```
-$work-issues 1 2 3
+$work-issues 1 2
 ```
+
+Zeg erbij dat de gebruiker daarna het resultaat kan bekijken en een nieuwe reeks kan starten met de volgende issues, bijvoorbeeld `$work-issues 3 4 5`.
