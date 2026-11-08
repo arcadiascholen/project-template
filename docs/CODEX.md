@@ -9,7 +9,7 @@ De Claude-skills in `.claude/` blijven ongewijzigd. Codex gebruikt zelfstandige 
 3. Vertrouw deze projectmap wanneer Codex daarom vraagt. Codex laadt projectconfiguratie en projectregels alleen voor vertrouwde projecten. Een template kan zichzelf niet vertrouwen. Herstart Codex nadat je de configuratie voor het eerst hebt overgenomen.
 4. Voer `$setup` uit. Die bespreekt je idee, helpt ontbrekende tools en GitHub-aanmelding klaarzetten, en schrijft `PROJECT_OVERVIEW.md`.
 5. Voer `$bootstrap-github` uit.
-6. Vraag: `Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.`
+6. Vraag: `Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de commando's om te bouwen en te testen. Zet er geen lijst in van wat getest moet worden. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.`
 7. Voer `$create-issues Kijk in PROJECT_OVERVIEW.md. Maak issues aan om de eerste versie van deze app te realiseren.` uit.
 8. Gebruik de echte nummers. Begin met de eerste twee, bijvoorbeeld `$work-issues 1 2`, en start daarna een nieuwe reeks met de volgende nummers.
 

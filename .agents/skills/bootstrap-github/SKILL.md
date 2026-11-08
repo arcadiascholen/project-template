@@ -74,6 +74,6 @@ Vertel in twee of drie zinnen wat er nu klaarstaat en waarom: elk issue krijgt z
 
 - Staan de bouwstenen uit `PROJECT_OVERVIEW.md` nog niet in `AGENTS.md`, stel dan deze vraag voor:
   ```text
-  Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.
+  Lees PROJECT_OVERVIEW.md en werk AGENTS.md bij met de gekozen bouwstenen en de commando's om te bouwen en te testen. Zet er geen lijst in van wat getest moet worden. Behoud de bestaande werkafspraken. Schrijf nog geen applicatiecode.
   ```
 - Daarna: `$create-issues`

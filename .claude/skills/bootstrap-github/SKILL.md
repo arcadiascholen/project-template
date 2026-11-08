@@ -71,6 +71,6 @@ Vertel in twee of drie zinnen wat er nu klaarstaat en waarom: elk issue krijgt z
 
 - Staan de bouwstenen uit `PROJECT_OVERVIEW.md` nog niet in `CLAUDE.md`, of bestaat dat bestand nog niet, stel dan deze vraag voor:
   ```text
-  Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
+  Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de commando's om te bouwen en te testen. Zet er geen lijst in van wat getest moet worden. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
   ```
 - Daarna: `/create-issues`
