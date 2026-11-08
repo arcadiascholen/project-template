@@ -48,6 +48,8 @@ git checkout -b issue-<N>-<korte-omschrijving>
 
 Testen horen bij het werk, net zoals de code zelf. Ze zorgen ervoor dat alles blijft werken zoals bedoeld, ook als er later iets verandert.
 
+`PROJECT_OVERVIEW.md` is geen testplan, en bepaalt niet waar het testen stopt. Elke nieuwe of gewijzigde werking krijgt eigen tests, ook voor randgevallen, zoals een leeg veld of een heel groot getal, en voor foutsituaties. Schrijf liever kleine tests die elk één gedrag nakijken, dan één grote test die alles samen nakijkt. Staan er eisen in de sectie "Eisen" van het overview, zorg dan dat die altijd getest zijn.
+
 Schrijf wat ontbreekt:
 
 - **Tests voor de werking:** de logica en de afzonderlijke onderdelen. Bij een fout: een test die faalt zonder je oplossing en slaagt met je oplossing.

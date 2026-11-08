@@ -71,9 +71,9 @@ Kies je een website op GitHub Pages, zeg dan in één zin dat elke wijziging die
 
 Wijzig je voorstel gerust als iets anders beter past, en leg kort uit waarom.
 
-## Stap 5: testen
+## Stap 5: eisen
 
-Vraag hier niets. De testen komen later bij elk issue. Leid zelf uit de eerste versie af wat zeker altijd moet blijven werken, en zet dat in de sectie "Testen" van het overview. Noemde de gebruiker zelf een eis, bijvoorbeeld "2/4 telt niet als juist als de uitkomst 1/2 is", neem die dan over in de woorden van de gebruiker.
+Vraag hier niets, en maak geen lijst van wat getest moet worden. De testen komen later bij elk issue. Noemde de gebruiker zelf een eis, bijvoorbeeld "2/4 telt niet als juist als de uitkomst 1/2 is", zet die dan in de sectie "Eisen" van het overview, in de woorden van de gebruiker. Zijn er geen zulke eisen, laat die sectie dan weg.
 
 ## Stap 6: vormgeving
 
@@ -144,8 +144,8 @@ Schrijf `PROJECT_OVERVIEW.md` in de taal van de gebruiker, kort en concreet. Dit
 ## Vormgeving
 Gebruikt het design system in `design-system/`.
 
-## Testen
-- <wat er altijd moet blijven werken>
+## Eisen
+- <een eis die de gebruiker zelf noemde, in de woorden van de gebruiker. Laat deze sectie weg als er geen zijn.>
 
 ## Publicatie
 <hoe de app bij de gebruikers raakt. Bij een website op GitHub Pages: elke merge naar de hoofdbranch publiceert de site automatisch via een workflow.>
@@ -175,7 +175,7 @@ Vertel in één of twee zinnen wat er nu vastligt. Noem daarna de volgende stapp
 /bootstrap-github
 ```
 ```text
-Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
+Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de commando's om te bouwen en te testen. Zet er geen lijst in van wat getest moet worden. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
 ```
 ```
 /create-issues Kijk in PROJECT_OVERVIEW.md. Maak issues aan om de eerste versie van deze app te realiseren.

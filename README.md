@@ -56,7 +56,7 @@ Je AI vraagt wat je wil maken en wat een eerste versie moet kunnen. Samen kiezen
 Vraag daarna aan je AI om bij te houden hoe je project in elkaar zit:
 
 ```text
-Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de manier om te bouwen en te testen. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
+Lees PROJECT_OVERVIEW.md en werk CLAUDE.md bij met de gekozen bouwstenen en de commando's om te bouwen en te testen. Zet er geen lijst in van wat getest moet worden. Maak het bestand aan als het nog niet bestaat. Schrijf nog geen applicatiecode.
 ```
 
 ### 5. Maak een lijst taken
